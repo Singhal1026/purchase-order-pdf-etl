@@ -1,0 +1,45 @@
+# ── Sensitive config (NEVER commit) ──────────────────────────────
+config.ini
+
+# ── Python ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/temp/
+.eggs/
+
+# ── Virtual environment ───────────────────────────────────────────
+venv/
+env/
+.venv/
+croma_venv/
+croma_new_venv/
+
+# ── Pipeline data folders ─────────────────────────────────────────
+data/input/
+data/archive/
+output/
+logs/
+
+# ── Reference data (large file, share separately) ────────────────
+data/Croma_Portal_Details.xlsx
+
+# ── PyInstaller build artifacts ───────────────────────────────────
+*.spec.bak
+build/temp/
+dist/
+
+# ── OS files ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE files ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
